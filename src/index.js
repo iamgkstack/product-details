@@ -32,6 +32,7 @@ app.get('/', (req, res) => {
 
 app.use('/products', routes);
 const port = process.env.PORT || 3000;
-app.listen(port, () => {
+const IP = process.env.IP;
+app.listen(port, IP, () => {
     console.log(`server on http://localhost:${port}`);
 });
