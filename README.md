@@ -11,7 +11,7 @@ git clone https://github.com/iamgkstack/product-details.git
 # Run the following command after cloning
     cd product-details
     
-    execute ```yarn``` for insatlling all the packages and dependencies 
+    execute yarn for insatlling all the packages and dependencies 
 
 # for starting the app execute
 
