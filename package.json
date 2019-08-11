@@ -1,6 +1,9 @@
 {
   "name": "product-details",
   "version": "1.0.0",
+  "engines": {
+    "yarn": "7.5.5"
+  },
   "description": "fetch product details and fetch product by its type",
   "main": "src/index.js",
   "scripts": {
