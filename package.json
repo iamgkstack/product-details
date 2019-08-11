@@ -1,0 +1,38 @@
+{
+  "name": "product-details",
+  "version": "1.0.0",
+  "description": "fetch product details and fetch product by its type",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "nodemon --exec babel-node src/index.js",
+    "debug": "babel-node --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgkstack/product-details.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamgkstack/product-details/issues"
+  },
+  "homepage": "https://github.com/iamgkstack/product-details#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
