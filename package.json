@@ -18,8 +18,8 @@
     "type": "git",
     "url": "git+https://github.com/iamgkstack/product-details.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Gaurav Kumar <gauravkumar5295@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iamgkstack/product-details/issues"
   },

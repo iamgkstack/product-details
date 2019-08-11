@@ -3,6 +3,11 @@ import products from '../models/products';
 
 module.exports = {
     fetchProducts: (req, res) => {
+        /**
+         * I have used limit and skip here hard coded
+         * its not a good way but I have used 
+         * due to some front-end dependency 
+         */
         const limit = 1000;
         const skip = 0;
         try {
