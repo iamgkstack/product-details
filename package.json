@@ -1,17 +1,18 @@
 {
   "name": "product-details",
   "version": "1.0.0",
-  "engines": {
-    "yarn": "1.17.3"
-  },
   "description": "fetch product details and fetch product by its type",
   "main": "src/index.js",
+  "engines": {
+    "node": "10.16.0"
+  },
   "scripts": {
     "serve": "nodemon --exec babel-node src/index.js",
     "debug": "babel-node --inspect src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 0",
     "build": "babel src -d dist",
     "start": "node dist/index.js"
+
   },
   "repository": {
     "type": "git",
