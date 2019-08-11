@@ -3,6 +3,9 @@ fetch product details and fetch product by its type
 
 ## Setup
 ```bash
+
+app link:- https://product-app-3990.herokuapp.com/
+
 git clone https://github.com/iamgkstack/product-details.git
 
 # Run the following command after cloning
